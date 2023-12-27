@@ -27,3 +27,14 @@ CREATE TABLE usuarios(
 show tables;
 ```
 
+## Go db connection
+```
+go mod init banco-de-dados
+
+go get github.com/go-sql-driver/mysql
+```
+
+## Run application
+```
+go run banco-de-dados.go
+```
