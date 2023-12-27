@@ -56,5 +56,5 @@ func CriarUsuario(w http.ResponseWriter, r *http.Request){
 	}
 
 	w.WriteHeader(http.StatusCreated)
-	w.Write([]byte(fmt.Sprint("Usuário inserido com sucesso! id: %d", idInserido)))
+	w.Write([]byte(fmt.Sprintf("Usuário inserido com sucesso! id: %d", idInserido)))
 }
