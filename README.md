@@ -41,3 +41,13 @@ curl --location --request GET 'localhost:5000/usuarios'
 ```
 curl --location --request GET 'localhost:5000/usuarios/1'
 ```
+
+### Update an user 
+```
+curl --location --request PUT 'localhost:5000/usuarios/1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "nome": "Alberto",
+    "email": "alberto@gmail.com"
+}'
+```
