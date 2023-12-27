@@ -31,3 +31,8 @@ curl --location --request POST 'localhost:5000/usuarios' \
     "email": "luiz.henrique@gmail.com"
 }'
 ```
+
+### Get users
+```
+curl --location --request GET 'localhost:5000/usuarios'
+```
