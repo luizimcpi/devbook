@@ -51,3 +51,8 @@ curl --location --request PUT 'localhost:5000/usuarios/1' \
     "email": "alberto@gmail.com"
 }'
 ```
+
+### Delete an user
+```
+curl --location --request DELETE 'localhost:5000/usuarios/1'
+```
