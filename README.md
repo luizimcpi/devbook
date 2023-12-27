@@ -36,3 +36,8 @@ curl --location --request POST 'localhost:5000/usuarios' \
 ```
 curl --location --request GET 'localhost:5000/usuarios'
 ```
+
+### Get user by id
+```
+curl --location --request GET 'localhost:5000/usuarios/1'
+```
